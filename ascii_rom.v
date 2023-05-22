@@ -48,7 +48,7 @@ module ascii_rom(
 			12'h01e: data = 8'b00000000;	//
 			12'h01f: data = 8'b00000000;	//
 			// code x02 (stx) start of text
-			12'h020: data = 8'b00000000;	//
+			12'h020: data = 8'b00000000;	// *
 			12'h021: data = 8'b00000000;	//
 			12'h022: data = 8'b00000000;	//
 			12'h023: data = 8'b00000000;	//
